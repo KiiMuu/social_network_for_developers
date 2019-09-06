@@ -1,0 +1,49 @@
+// landing style
+
+@media ( max-width: 900px ) {
+    .landing {
+        .landing-content {
+            h1 {
+                font-size: 50px !important;
+            }
+        }
+    }
+}
+
+@media ( max-width: 650px ) {
+    .landing {
+        .landing-content {
+            h1 {
+                font-size: 30px !important;
+            }
+        }
+    }
+}
+
+// auth pages
+
+@media ( max-width: 640px ) {
+    .landing-content {
+        padding-top: 50px;
+    }
+    .signup, .signin {
+        .signup-content, .signin-content {
+            .signin-option, .signup-option {
+                text-align: left !important;
+            }
+        }
+    }
+}
+
+// create profile page
+@media ( min-width: 715px ) {
+    .create-profile, 
+    .edit-profile, 
+    .add-experience,
+    .add-education, 
+    .profiles {
+        .uk-container-small {
+            width: 640px;
+        }
+    }
+}

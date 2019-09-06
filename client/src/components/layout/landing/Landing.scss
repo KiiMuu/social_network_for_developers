@@ -1,0 +1,27 @@
+@import '../../../helpers/Variables';
+@import '../../../helpers/Grid';
+
+.landing {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('../../../img/landing.jpg') fixed no-repeat center center;
+    background-size: cover;
+    .landing-content {
+        z-index: 9;
+        margin-top: 40px;
+        h1 {
+            color: $mainColor;
+            font-weight: 900;
+            font-size: 65px;
+        }
+        .auth-btns {
+            margin-top: 30px;
+            .signup, .signin {
+                background: transparent;
+                border: 1px solid rgba(255, 255, 255, .2);
+                color: $mainLight;
+                &:hover {
+                    border-color: $mainColor;
+                }
+            }
+        }
+    }
+}

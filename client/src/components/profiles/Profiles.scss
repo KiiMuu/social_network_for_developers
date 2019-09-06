@@ -1,0 +1,53 @@
+@import '../../helpers/Variables';
+@import '../../helpers/Grid';
+
+.profiles {
+    padding: 50px 0;
+    background: $dark1;
+    h1 {
+        font-weight: 900;
+        letter-spacing: 2px;
+        color: $mainColor;
+        margin-bottom: 5px !important
+    }
+    p {
+        margin-top: 0 !important;
+        margin-bottom: 40px;
+    }
+    h4 {
+        color: $mainLight;
+    }
+    .profile-item {
+        background: $dark2;
+        padding: 30px;
+        margin-bottom: 30px;
+        h4 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: $mainLight;
+        }
+        .status {
+            color: #aaa;
+        }
+        .location {
+            color: $mainLight;
+        }
+        i {
+            color: $mainColor;
+            margin-right: 5px;
+        }
+        .item-content {
+            margin-top: 20px;
+            .skill {
+                background: rgba(255, 255, 255, .05);
+                color: $mainLight;
+            }
+            .uk-button-text {
+                color: $mainLight;
+                &::before {
+                    border-bottom: 1px solid $mainLight;
+                }
+            }
+        }
+    }
+}

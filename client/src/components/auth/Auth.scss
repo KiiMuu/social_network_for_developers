@@ -1,0 +1,45 @@
+@import '../../helpers/Variables';
+@import '../../helpers/Grid';
+
+.signup {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('../../img/signup.png') fixed no-repeat center center;
+    background-size: cover;
+}
+
+.signin {
+    background: linear-gradient(rgba(0, 0, 0, .85), rgba(0, 0, 0, .85)), url('../../img/signin.png') fixed no-repeat center center;
+    background-size: cover;
+}
+
+.signup, .signin {
+    .signup-content, .signin-content {
+        h1 {
+            color: $mainColor;
+            font-weight: 900;
+            margin-bottom: 5px;
+        }
+        p {
+            margin-bottom: 30px;
+            margin-top: 0;
+        }
+        .form-content {
+            .uk-input {
+                border: none;
+                background: rgba(255, 255, 255, .2);
+                color: $mainLight;
+                height: 45px;
+            }
+            button {
+                border: none;
+                background: $mainColor;
+                color: $mainLight;
+            }
+            p {
+                color: $mainLight;
+                a {
+                    color: $mainColor;
+                }
+            }
+        }
+    }
+}

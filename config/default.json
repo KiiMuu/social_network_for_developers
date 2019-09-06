@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb://localhost/social-network",
+    "jwtSecret": "mysecret must be unknow lol",
+    "githubClientId": "e072d10b6311c365b676",
+    "githubSecret": "ce00500dba10fffe26f6a4010c99d09c3e442c03"
+}

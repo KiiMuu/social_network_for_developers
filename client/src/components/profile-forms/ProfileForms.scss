@@ -1,0 +1,78 @@
+@import '../../helpers/Variables';
+@import '../../helpers/Grid';
+
+.create-profile, 
+.edit-profile, 
+.add-experience, 
+.add-education {
+    background: $dark1;
+    padding: 50px 0;
+    h1 {
+        font-weight: 900;
+        letter-spacing: 2px;
+        color: $mainColor;
+        margin-bottom: 5px !important
+    }
+    p {
+        margin-top: 0 !important;
+        margin-bottom: 40px;
+    }
+    .uk-input, .uk-select, .uk-textarea {
+        height: 45px;
+        border: none;
+        background: $dark2;
+        outline: none;
+        transition: .2s ease-in-out;
+        color: #aaa;
+        &:focus {
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, .14);
+            transition: .2s ease-in-out;
+        }
+    }
+    .uk-textarea {
+        height: 150px;
+        padding: 15px 0 0 15px;
+        resize: none;
+    }
+    .uk-form-icon {
+        position: absolute !important;
+        top: inherit;
+        bottom: inherit;
+        left: inherit;
+        margin-top: 15px;
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .fa-facebook {
+        color: #3b5998
+    }
+    .fa-twitter {
+        color: #1da1f2
+    }
+    .fa-youtube {
+        color: #ff0000
+    }
+    .fa-linkedin {
+        color: #00a0dc
+    }
+    .fa-instagram {
+        color: #833ab4
+    }
+    .uk-button-primary {
+        background: $mainColor !important;
+        color: $mainLight;
+    }
+    a {
+        i {
+            margin-left: 5px;
+            color: $mainColor;
+        }
+    }
+    .uk-button-default {
+        border: 1px solid #393939;
+        color: $mainLight;
+    }
+    h4 {
+        color: $mainLight;
+    }
+}

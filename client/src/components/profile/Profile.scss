@@ -1,0 +1,113 @@
+@import '../../helpers/Variables';
+@import '../../helpers/Grid';
+
+.profile {
+    background: $dark1;
+    padding: 50px 0;
+    .uk-button-default {
+        border: none;
+        color: $mainLight;
+        background: rgba(255, 255, 255, .05);
+        i {
+            margin-left: 5px;
+        }
+    }
+    .profile-content {
+        .profile-info {
+            background: $dark2;
+            h2 {
+                color: $mainLight;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+            span {
+                color: #a5a5a5;
+            }
+            i {
+                color: $mainLight;
+                margin-right: 5px;
+            }
+            .social-links {
+                margin-top: 20px;
+                a {
+                    &:not(:first-child) {
+                        margin-left: 15px;
+                    }
+                    i {
+                        color: $mainLight;
+                        font-size: 17px;
+                        background: rgba(255, 255, 255, .05);
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        text-align: center;
+                        border-radius: 50%;
+                        transition: .25s ease-in-out;
+                        &:hover {
+                            transform: rotate(360deg);
+                        }
+                    }
+                }
+            }
+        }
+        .profile-about {
+            .profile-bio, .profile-skills {
+                background: $dark2;
+                p {
+                    color: #a5a5a5;
+                }
+                h3 {
+                    color: $mainLight;
+                }
+                .skill {
+                    color: $mainLight;
+                    background: rgba(255, 255, 255, .05);
+                    padding: 5px;
+                }
+            }
+        }
+        .experience, .education {
+            background: $dark2;
+            h3 {
+                color: $mainLight;
+            }
+            .profile-exp,
+            .profile-edu {
+                h4 {
+                    color: $mainLight;
+                }
+                p {
+                    margin: 5px 0;
+                    color: #a5a5a5;
+                }
+            }
+        }
+        .profile-github {
+            background: $dark2;
+            h3 {
+                color: $mainLight;
+                i {
+                    font-size: 25px;
+                    margin-right: 5px;
+                }
+            }
+            .repo {
+                border: 1px solid #333131;
+                margin-bottom: 20px;
+                h5 {
+                    margin-bottom: 0;
+                    a {
+                        text-decoration: none;
+                        color: $mainColor;
+                    }
+                }
+                p {
+                    margin-top: 10px;
+                }
+                li {
+                    color: #a5a5a5;
+                }
+            }
+        }
+    }
+}

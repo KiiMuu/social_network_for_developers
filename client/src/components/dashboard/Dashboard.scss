@@ -1,0 +1,52 @@
+@import '../../helpers/Variables';
+
+.dashboard {
+    padding: 50px 0;
+    background: $dark1;
+    h1 {
+        font-weight: 900;
+        letter-spacing: 2px;
+        color: $mainColor;
+    }
+    p {
+        color: #aaa;
+        line-height: 2;
+    }
+    .have-not-profile {
+        margin-top: 20px;
+        p {
+            background: $dark2;
+            padding: 10px;
+        }
+    }
+    .dash-buttons {
+        padding: 50px 0;
+        a {
+            margin-bottom: 10px;
+            border: 1px solid #393939;
+            color: $mainLight;
+            &:hover {
+                border: 1px solid #393939;
+                color: $mainLight;
+            }
+        }
+        i {
+            color: $mainColor;
+            margin-right: 5px;
+        }
+    }
+    .education-credentials,
+    .experience-credentials {
+        h4 {
+            color: $mainLight;
+        }
+        .uk-table-divider>:first-child>tr:not(:first-child), .uk-table-divider>:not(:first-child)>tr, .uk-table-divider>tr:not(:first-child) {
+            border-top: 1px solid #393939;
+        }
+    }
+}
+
+.experience-credentials, 
+.education-credentials {
+    margin-bottom: 50px;
+}

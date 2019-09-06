@@ -1,0 +1,71 @@
+@import '../../helpers/Variables';
+
+.post {
+    padding: 50px 0;
+    a {
+        color: $mainLight;
+        border: 1px solid rgba(255, 255, 255, .15);
+        &:hover {
+            color: $mainLight;
+            border: 1px solid rgba(255, 255, 255, .15);
+        }
+        i {
+            margin-left: 5px;
+        }
+    }
+    .post-item {
+        background: $dark2;
+        margin: 30px 0;
+        i.fa-chevron-down {
+            cursor: pointer;
+            color: $mainLight;
+        }
+        .uk-comment-title {
+            color: $mainLight;
+            a {
+                border: none;
+            }
+        }
+        p {
+            color: #ddd;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+    }
+    .comment-form {
+        .uk-textarea {
+            background: $dark2;
+            height: 110px;
+            padding: 15px;
+            border: 1px solid rgba(255, 255, 255, .15);
+            margin-bottom: 10px;
+            color: #ddd;
+            resize: none;
+        }
+        .uk-button {
+            background: $mainColor;
+            color: $mainLight;
+            border: none;
+            outline: none;
+        }
+    }
+    .comment-item {
+        background: $dark2;
+        margin: 30px 0;
+        .uk-comment-title {
+            color: $mainLight;
+            a {
+                border: none;
+            }
+        }
+        p {
+            color: #ddd;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+        button {
+            background: none;
+            padding: 0;
+        }
+    }
+}

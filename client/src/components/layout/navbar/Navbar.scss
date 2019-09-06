@@ -1,0 +1,55 @@
+@import '../../../helpers/Variables';
+
+.navbar {
+    .uk-navbar-left {
+        a {
+            color: $mainLight;
+            font-size: 20px;
+            &:hover, &:focus, &:active {
+                color: $mainLight;
+            }
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+    .uk-navbar-right {
+        a {
+            color: $mainLight;
+            &:hover {
+                color: $mainLight;
+            }
+            &:focus, &:active {
+                color: $mainLight;
+            }
+        }
+    }
+    .sidebar {
+        .sidebar-btn {
+            color: $mainLight;
+        }
+    }
+}
+
+.uk-offcanvas-bar {
+    background: $mainColor;
+    padding-top: 60px;
+    .logo {
+        font-size: 20px;
+        text-decoration: none;
+    }
+}
+
+.uk-nav-default {
+    margin-top: 30px;
+    li {
+        margin: 15px 0;
+        a {
+            color: $mainLight !important;
+            text-transform: uppercase;
+            &:hover {
+                color: $mainLight !important;
+            }
+        }
+    }
+}

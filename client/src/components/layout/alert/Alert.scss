@@ -1,0 +1,13 @@
+.danger-alert {
+    z-index: 99;
+    padding: 10px;
+    p {
+        margin-bottom: 0 !important;
+        color: #ed5249 !important;
+    }
+}
+
+.success-alert {
+    z-index: 99;
+    margin-bottom: 20px !important;
+}

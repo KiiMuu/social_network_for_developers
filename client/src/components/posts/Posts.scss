@@ -1,0 +1,77 @@
+@import '../../helpers/Variables';
+
+.posts {
+    padding: 50px 0;
+    h1 {
+        font-weight: 900;
+        letter-spacing: 2px;
+        color: $mainColor;
+        margin-bottom: 5px !important
+    }
+    p {
+        margin-top: 0 !important;
+        margin-bottom: 40px;
+    }
+    .post-item {
+        background: $dark2;
+        margin-top: 30px;
+        i.fa-chevron-down {
+            cursor: pointer;
+            color: $mainLight;
+        }
+        .dropdown {
+            background: $dark2;
+            li {
+                text-transform: uppercase;
+                padding: 3px 0;
+                a {
+                    color: #dddddd !important;
+                }
+            }
+            button {
+                background: none;
+                border: none;
+                color: #dddddd;
+                text-transform: uppercase;
+                padding: 0;
+                cursor: pointer;
+                outline: none;
+            }
+        }
+        .uk-comment-title {
+            color: $mainLight;
+        }
+        .post-content {
+            color: #ddd;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+        .likes {
+            button {
+                border: none;
+                text-transform: uppercase;
+                background: none;
+                cursor: pointer;
+                outline: none;
+                color: $mainColor;
+            }
+        }
+    }
+    .post-form {
+        .uk-textarea {
+            background: $dark2;
+            height: 150px;
+            padding: 15px;
+            border: 1px solid rgba(255, 255, 255, .15);
+            margin-bottom: 10px;
+            color: #ddd;
+            resize: none;
+        }
+        .uk-button {
+            background: $mainColor;
+            color: $mainLight;
+            border: none;
+            outline: none;
+        }
+    }
+}
